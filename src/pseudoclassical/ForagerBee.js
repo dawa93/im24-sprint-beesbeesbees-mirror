@@ -1,7 +1,7 @@
-var Bee = require('./Bee');
+var Bee = require("./Bee");
 
-var ForagerBee = function () {
+var ForagerBee = function () {};
 
-};
+ForagerBee.prototype = Object.create(Bee.prototype);
 
 module.exports = ForagerBee;
