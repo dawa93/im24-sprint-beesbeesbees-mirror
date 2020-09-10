@@ -6,9 +6,6 @@ var ForagerBee = function() {
   this.job = "find pollen";
   this.canFly = true;
   this.treasureChest = [];
-  // this.forage = function() {
-  //   this.treasureChest.push("treasure");
-  // };
 };
 ForagerBee.prototype = Object.create(Bee.prototype);
 ForagerBee.prototype.constructor = ForagerBee;
